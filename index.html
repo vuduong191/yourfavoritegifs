@@ -12,29 +12,42 @@
     <script src="main.js"></script>
 </head>
 <body>
-  <div class="row">
-    <div class="col-lg-1">
-
-    </div>
-    <div class="col-lg-10" id = keywordfield>
-
-    </div>
-    <div class="col-lg-1">
-
-    </div>
+  <div id="titlecontainer">
+  <h2 id =title>Your Fav Gifs</h2>
   </div>
-    <div class="row">
+  <div class="row">
+      <div class="col-lg-1">
+
+      </div>
+      <div class="col-lg-10" id = keywordfield>
+
+      </div>
+      <div class="col-lg-1">
+
+      </div>
+  </div>
+    <div class="row" id=bodysection>
     <div class="col-lg-1">
 
     </div>
     <div class="col-lg-8" id=gifs-appear-here>
 
     </div>
-    <div class="col-lg-10">
-      One of three columns
+    <div class="col-lg-2" class = input_form>
+      <form>
+        <label for="gifinput">Add an Emotion</label>
+        <input type="text" id="gifinput">
+        <input type="submit" id = "submitbutton" value="Add">
+      </form>
+      <div>
+        <h1>Favorite</h1>
+        <div id = favgifs>
+
+        </div>
+      </div>
     </div>    
     <div class="col-lg-1">
-
+      <a class="downloadbutton" href="https://media3.giphy.com/media/mX1Rf66MHIJTG/200.gif" download>Download</a>
     </div>
   </div>
     
