@@ -19,7 +19,7 @@ var populatingfavorite = function(){
             $("#favgifs").empty()
             for (var i=0;i<favoritelist.length;i++){
 
-            var queryURL = "http://api.giphy.com/v1/gifs/" +favoritelist[i]+"?api_key=KJr2h3l3NtuRfBZaBp1xAfNg6Z9YgNtD&limit=10";
+            var queryURL = "https://api.giphy.com/v1/gifs/" +favoritelist[i]+"?api_key=KJr2h3l3NtuRfBZaBp1xAfNg6Z9YgNtD&limit=10";
             $.ajax({
             url: queryURL,
             method: "GET"
