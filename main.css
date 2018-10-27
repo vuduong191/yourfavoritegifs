@@ -67,4 +67,6 @@ button:hover{
 .addtofavsbutton {
     font-size: 0.7em;
     color: rgb(126, 126, 126);
+    cursor: copy;
+    color: rgb(126, 126, 126)
 }
